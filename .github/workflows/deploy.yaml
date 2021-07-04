@@ -42,8 +42,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "deploying on "
-
-      - id: push-change-in-deployment-branch
-        name: "Push the changes in deployment branch"
-        run: echo "Push change in deplyoment branch"
+          git commit -m "deploying on `date +"%d-%m-%Y %H:%M %Z"`"
+          git push -f
