@@ -20,11 +20,6 @@ I like to code, solve problems and I am always looking out for new and interesti
 ## I'm currently working 👨🏽‍💻 on...
 
 <p>
-  <a href="https://github.com/cmxiv/eights-fours-ones" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=cmxiv&repo=eights-fours-ones&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" width="400px" height="150px" />
-  </a>
-  &nbsp;
-  &nbsp;
   <a href="https://github.com/cmxiv/restoros" target="_blank">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=cmxiv&repo=restoros&show_icons=true&title_color=fff&icon_color=79ff97&text_color=9f9f9f&bg_color=151515" width="375px" height="150px" />
   </a>
