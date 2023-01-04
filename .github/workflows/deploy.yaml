@@ -2,25 +2,25 @@ name: "deploy-site"
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   run-deployment:
     name: "run-deployment"
     runs-on: ubuntu-latest
     steps:
       - id: setup-node
-        name: "Setup Node 14"
+        name: "Setup Node 18"
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '18'
       - id: install-yarn
         name: "Install Yarn"
         run: npm install --global yarn
-      - id: pull-latest-from-master
-        name: "Get latest codebase from master"
+      - id: pull-latest-from-main
+        name: "Get latest codebase from main"
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
       - id: run-build
         name: "Run Build"
         run: |
