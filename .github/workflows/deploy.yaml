@@ -30,7 +30,7 @@ jobs:
         name: "Copy artifacts to Temp"
         run: |
           mkdir /tmp/www
-          cp -r dist/cmxiv-github-io/* /tmp/www/.
+          cp -r dist/* /tmp/www/.
       - id: checkout-deployment
         name: "Checkout deployment branch"
         uses: actions/checkout@v2
