@@ -30,7 +30,7 @@ function App() {
                 <img className="headshot" src="/headshot.jpeg" alt="Insert super amazing headshot"/>
                 <section className="sidebar">
                     <ul>
-                        <li><a href="https://tandosid.dev">Blog</a></li>
+                        <li><a href="https://tandosid.dev">Siddhant's Blog</a></li>
                         <li><a href="https://github.com/cmxiv">GitHub</a></li>
                         <li><a href="https://linkedin.com/in/siddhanttandon">LinkedIn</a></li>
                         <li><a href="mailto:me@tandosid.dev">Email</a></li>
